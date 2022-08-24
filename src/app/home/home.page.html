@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      Webengage
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+
+  <div class="buttons">
+
+    <!-- login button -->
+    <ion-button expand="block" color="tertiary" (click)="login()">
+      Login
+    </ion-button>
+
+    <!-- update user data button -->
+    <ion-button expand="block" color="success" (click)="updateUserData()">
+      Update User Data
+    </ion-button>
+  
+    <!-- logout button -->
+    <ion-button expand="block" color="danger" (click)="logout()">
+      Logout
+    </ion-button>
+  </div>
+
+</ion-content>

@@ -1,0 +1,13 @@
+.buttons {
+  width: 80%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  ion-button {
+    margin-bottom: 25px;
+    text-transform: initial;
+    height: 44px;
+  }
+}
